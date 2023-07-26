@@ -1,5 +1,6 @@
 import time
 
+#ทำงานแบบนี้คือ การเล่น จะเล่นพร้อมกันทุกโต๊ะแต่สามารถเดินไปอีกโต๊ะได้เลยไม่ต้องรอให้เสร็จ  
 my_compute_time = 5
 opponent_compute_time = 55
 opponents = 24
@@ -25,3 +26,7 @@ if __name__ == "__main__":
     for j in range(opponents):
         main(j)
     print(f"Finished in {round(time.perf_counter() - start_time)} secs")
+
+
+
+  

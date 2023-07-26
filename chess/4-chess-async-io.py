@@ -1,6 +1,7 @@
 import asyncio
 import time
 
+#ทำงานแบบนี้คือ การเล่น จะเล่นพร้อมกันทุกโต๊ะแต่ไม่สามารถเดินไปอีกโต๊ะได้เลยต้องรอให้เสร็จก่อน  
 my_compute_time = 5
 opponent_compute_time = 55
 opponents = 24
@@ -33,3 +34,5 @@ if __name__ == "__main__":
     start_time = time.perf_counter()
     asyncio.run(async_io())
     print(f"Finished in {round(time.perf_counter() - start_time)} secs")
+
+     
